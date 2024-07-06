@@ -66,3 +66,15 @@ nav ul a:hover {
     transform: scale(1.15);
     cursor: pointer;
 }
+
+
+/* text selection styling */
+header nav a::selection {
+    background: aqua;
+    color: black;
+}
+
+header nav span::selection {
+    background: aqua;
+    color: black;
+}
