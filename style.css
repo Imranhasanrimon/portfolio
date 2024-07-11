@@ -4,7 +4,7 @@
     font-family: "Poppins", sans-serif;
     list-style: none;
     text-decoration: none;
-    color: white;
+    color: aqua;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,7 +46,7 @@ header nav ul a {
 }
 
 nav ul a:hover {
-    color: aqua;
+    color: white;
     transform: scale(1.15);
 }
 
@@ -66,6 +66,41 @@ nav ul a:hover {
     transform: scale(1.15);
     cursor: pointer;
 }
+
+/* text area design  */
+
+header .text-content {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.text-content p,
+h4 {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* text selection styling */
