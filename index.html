@@ -36,20 +36,9 @@
 </head>
 
 <body>
-    <ul class="timeline timeline-vertical">
-        <li class="">
-            <div class="hidden"></div>
-            <div class="timeline-middle">
-                <i class="fa-solid fa-plus bg-green-400 rounded-full p-1 text-white font-bold"></i>
-            </div>
-            <div class="timeline-end timeline-box mt-14">
-                <h3 class="text-white ">19 December 15:23 <br> Label created</h3>
-                <p>BLOOMINGTOM, 06343 CA</p>
-            </div>
-            <hr class="bg-green-400" />
-        </li>
-        <li class="-mt-7">
-            <hr class="bg-green-400">
+    <!-- timeline customization  -->
+    <ul class="timeline timeline-vertical items-start">
+        <li class="-mt-7 grid-cols-2">
             <div class="timeline-middle">
                 <i class="fa-solid fa-car bg-green-400 rounded-full p-1 text-white font-bold"></i>
             </div>
@@ -59,7 +48,29 @@
             </div>
             <hr class="bg-green-400" />
         </li>
-        <li class="-mt-7">
+        <li class="-mt-7 grid-cols-2">
+            <hr class="bg-green-400">
+            <div class="timeline-middle">
+                <i class="fa-solid fa-file-invoice bg-green-400 rounded-full p-1 px-[6px] text-white font-bold"></i>
+            </div>
+            <div class="timeline-end timeline-box mt-14">
+                <h3 class="text-white ">12 December 6:44 <br> Arrived at Processing Depot</h3>
+                <p>TRENDEL, 06343 CA</p>
+            </div>
+            <hr class="bg-green-400" />
+        </li>
+        <li class="-mt-7 grid-cols-2">
+            <hr class="bg-green-400">
+            <div class="timeline-middle">
+                <i class="fa-solid fa-file-invoice bg-green-400 rounded-full p-1 px-[6px] text-white font-bold"></i>
+            </div>
+            <div class="timeline-end timeline-box mt-14">
+                <h3 class="text-white ">12 December 6:44 <br> Arrived at Processing Depot</h3>
+                <p>TRENDEL, 06343 CA</p>
+            </div>
+            <hr class="bg-green-400" />
+        </li>
+        <li class="-mt-7 grid-cols-2">
             <hr class="bg-green-400">
             <div class="timeline-middle">
                 <i class="fa-solid fa-file-invoice bg-green-400 rounded-full p-1 px-[6px] text-white font-bold"></i>
@@ -72,7 +83,41 @@
         </li>
 
     </ul>
-
+    <br>
+    <!-- cont-down  -->
+    <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
+        <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+            <span class="countdown font-mono text-5xl">
+                <span style="--value:15;"></span>
+            </span>
+            days
+        </div>
+        <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+            <span class="countdown font-mono text-5xl">
+                <span style="--value:10;"></span>
+            </span>
+            hours
+        </div>
+        <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+            <span class="countdown font-mono text-5xl">
+                <span style="--value:24;"></span>
+            </span>
+            min
+        </div>
+        <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+            <span class="countdown font-mono text-5xl">
+                <span style="--value:${counter};"></span>
+            </span>
+            sec
+        </div>
+    </div>
+    <!-- steps  -->
+    <ul class="steps steps-vertical">
+        <li class="step step-primary">Register</li>
+        <li class="step step-primary">Choose plan</li>
+        <div class="step "> <button class="btn">this si bt</button></div>
+        <li class="step">Receive Product</li>
+    </ul>
 </body>
 
 </html>
