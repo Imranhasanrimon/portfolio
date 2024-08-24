@@ -6,35 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imran's portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/82b4de73d1.js" crossorigin="anonymous"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- favicon -->
     <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=HmQQr0jYHZxu&format=png&color=000000
     " type="image/x-icon">
-
+    <!-- Tailwind and DaisyUI CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind configuration  -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        manrope: 'Manrope',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <h2><a href="">im<span>ra</span>n</a></h2>
-            <ul>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-            <button class="btn">Resume</button>
-        </nav>
-        <div class="text-content">
-            <p>Hi, I<span>'</span>m</p>
-            <h1>Imran Hasan, </h1>
-            <h4>a front-end web developer</h4>
 
-        </div>
-
-
-        <!-- removable text -->
-        <strong style="position: absolute; bottom: 2%;">Development is in process</strong>
-    </header>
 </body>
 
 </html>
