@@ -40,7 +40,12 @@
         <div
             class="h-[200px] w-[350px] rounded-3xl bg-white bg-opacity-20 backdrop-blur p-5 flex items-center justify-center">
 
-            <div class="radial-progress text-white" style="--value:70;" role="progressbar">70%</div>
+            <div class="relative">
+                <div class="radial-progress text-white" style="--value:70;" role="progressbar">70%</div>
+                <div class="radial-progress text-white text-opacity-20 absolute left-0" style="--value:100;"
+                    role="progressbar">70%
+                </div>
+            </div>
         </div>
     </header>
 
