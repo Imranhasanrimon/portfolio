@@ -25,6 +25,11 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        primary: '#ff014f',
+                        body: '#212429',
+                        start: '#13161b',
+                        end: '#22252a',
+
                     },
                     fontFamily: {
                         manrope: 'Manrope',
@@ -35,9 +40,48 @@
     </script>
 </head>
 
-<body class="font-manrope ">
+<body class="font-manrope bg-body">
+    <header class="text-white container mx-auto">
+        <div class="navbar justify-between">
+            <div class="navbar-start text-xl">
+                <div class="flex items-center justify-center bg-primary  w-10 h-10 rounded-full cursor-pointer">
+                    <i class="fa-solid fa-info"></i>
+                </div>
+                <h2 class="cursor-pointer"><i class="fa-solid fa-i ml-2"></i>mran . <span
+                        class="text-primary font-bold">H</span></h2>
+            </div>
 
+            <div class="">
+                <div class=" hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-primary">Home</a></li>
+                        <li><a class="hover:text-primary">About Me</a></li>
+                        <li><a class="hover:text-primary">Projects</a></li>
+                        <li><a class="hover:text-primary">Blog</a></li>
+                        <li><a class="hover:text-primary">Contact</a></li>
 
+                    </ul>
+                </div>
+                <div class="dropdown ">
+                    <div tabindex="0" role="button" class=" lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-body border-2 border-primary rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                        <li><a class="text-primary">Home</a></li>
+                        <li><a class="hover:text-primary">About Me</a></li>
+                        <li><a class="hover:text-primary">Projects</a></li>
+                        <li><a class="hover:text-primary">Blog</a></li>
+                        <li><a class="hover:text-primary">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>
