@@ -10,12 +10,12 @@ const MySkills = () => {
     return (
         <div className="max-w-screen-lg mx-auto">
             <h3>My Skills</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 ">
+            <div className="grid grid-cols-3 md:grid-cols-5 gap-4 ">
                 {
                     mySkills.map((skill, idx) => <div key={idx}
                         className="flex flex-col justify-center items-center bg-customFront rounded-lg p-4"
                     >
-                        <img src={skill.logo} alt="" />
+                        <img src={skill.logo} className="w-12" alt="" />
                         <h5>{skill.name}</h5>
                     </div>)
                 }

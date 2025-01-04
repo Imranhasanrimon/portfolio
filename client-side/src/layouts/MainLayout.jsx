@@ -2,6 +2,7 @@
 
 import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 
@@ -13,8 +14,8 @@ const MainLayout = () => {
                 <Banner></Banner>
                 <AboutMe></AboutMe>
                 {/* <Outlet /> */}
-                {/* <Footer /> */}
             </div>
+            <Footer />
         </div>
     );
 };
