@@ -1,4 +1,7 @@
-import bannerImg from "../assets/basundhara.jpg"
+import { PiGithubLogoFill } from "react-icons/pi";
+import { VscGithub } from "react-icons/vsc";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { BsFacebook } from "react-icons/bs";
 import bannerImg2 from "../assets/banner.jpg"
 const Banner = () => {
     return (
@@ -15,20 +18,34 @@ const Banner = () => {
                     performance,
                     usability, and cross-browser
                     compatibility for a seamless user experience.</p>
+                <div className="flex gap-4 text-primary mt-4">
+
+                    <button
+                        onClick={() => window.open('https://github.com/Imranhasanrimon', '_blank')}
+                        className="bg-customFront hover:bg-primary hover:bg-opacity-10 flex justify-center items-center h-10 w-10 rounded-lg">
+                        <VscGithub />
+                    </button>
+                    <button
+                        onClick={() => window.open('https://www.linkedin.com/in/imran-hasan-537b1a22a/', '_blank')}
+                        className="bg-customFront hover:bg-primary hover:bg-opacity-10 flex justify-center items-center h-10 w-10 rounded-lg text-2xl">
+                        <TiSocialLinkedinCircular />
+                    </button>
+                    <button
+                        onClick={() => window.open('https://www.facebook.com/profile.php?id=100010204906646', '_blank')}
+                        className="bg-customFront hover:bg-primary hover:bg-opacity-10 flex justify-center items-center h-10 w-10 rounded-lg ">
+                        <BsFacebook />
+                    </button>
+
+                </div>
                 <button className="bg-primary hover:bg-opacity-90 transition-colors text-white py-2 mt-4 px-6 rounded-md font-medium">Hire Me</button>
             </div>
             <div className="divider md:divider-horizontal ">
-                <div className="w-12 md:w-2 h-2 md:h-12 border rounded-full"></div>
+                <div className="w-12 md:w-2 h-2 md:h-12 border border-primary rounded-full"></div>
             </div>
             {/* <!-- image  --> */}
-            <div className="bg-customFront p-7 md:mr-14"
-                style={{
-                    clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
-                }}>
+            <div className="bg-customFront rounded-2xl p-5  lg:ml-20 xl:ml-60"
+            >
                 <img className=" max-w-56 rounded-2xl" src={bannerImg2} alt=""
-                    style={{
-                        clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
-                    }}
                 />
             </div>
         </div>
