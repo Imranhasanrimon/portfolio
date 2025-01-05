@@ -9,7 +9,8 @@ const MySkills = () => {
     }, []);
     return (
         <div className="max-w-screen-lg mx-auto">
-            <h3>My Skills</h3>
+            <div className="divider divider-error after:bg-primary before:bg-primary"> <h2 className="text-2xl md:text-3xl lg:text-5xl text-primary text-center font-semibold">My Skills</h2></div>
+
             <div className="grid grid-cols-3 md:grid-cols-5 gap-4 ">
                 {
                     mySkills.map((skill, idx) => <div key={idx}

@@ -6,7 +6,6 @@ const AboutMe = () => {
     return (
         <div>
             <MyStory></MyStory>
-            <div className="divider divider-error">Error</div>
             <MySkills></MySkills>
             <MyEducation></MyEducation>
 

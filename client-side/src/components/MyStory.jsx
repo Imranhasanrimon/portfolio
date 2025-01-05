@@ -23,7 +23,8 @@ const MyStory = () => {
                     <img src={modlaImage} alt="" />
                 </div>
             </dialog>
-            <h2 className="text-2xl md:text-3xl lg:text-5xl text-primary text-center font-semibold">About Me</h2>
+
+            <div className="divider divider-error after:bg-primary before:bg-primary"> <h2 className="text-2xl md:text-3xl lg:text-5xl text-primary text-center font-semibold">About Me</h2></div>
 
             <div className="flex flex-col-reverse md:flex-row gap-5 mt-8">
 
@@ -31,27 +32,27 @@ const MyStory = () => {
 
                     <div className="bg-customFront col-span-4 rounded-xl overflow-hidden">
                         <img onClick={() => openImage(google)} className="h-56 w-full object-cover" src={google} alt="" />
-                        <p className="text-center py-2">2022</p>
+                        <p className="text-center py-2 text-primary">2022</p>
                     </div>
 
                     <div className="bg-customFront col-span-2 rounded-xl overflow-hidden">
                         <img onClick={() => openImage(cssPractice)} className="h-56 w-full object-cover" src={cssPractice} alt="" />
-                        <p className="text-center py-2">2023</p>
+                        <p className="text-center py-2 text-primary">2023</p>
                     </div>
 
                     <div className="bg-customFront col-span-2 rounded-xl overflow-hidden">
                         <img onClick={() => openImage(fullRoom)} className="h-56 w-full object-cover" src={fullRoom} alt="" />
-                        <p className="text-center py-2">2024</p>
+                        <p className="text-center py-2 text-primary">2024</p>
                     </div>
 
                     <div className="bg-customFront col-span-2 rounded-xl overflow-hidden">
                         <img onClick={() => openImage(backNight)} className="h-56 w-full object-cover" src={backNight} alt="" />
-                        <p className="text-center py-2">2024</p>
+                        <p className="text-center py-2 text-primary">2024</p>
                     </div>
 
                     <div className="bg-customFront col-span-2 rounded-xl overflow-hidden">
                         <img onClick={() => openImage(frontNight)} className="h-56 w-full object-cover" src={frontNight} alt="" />
-                        <p className="text-center py-2">2024</p>
+                        <p className="text-center py-2 text-primary">2024</p>
                     </div>
 
                 </div>
