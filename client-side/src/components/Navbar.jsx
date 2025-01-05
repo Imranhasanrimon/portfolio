@@ -1,11 +1,13 @@
 
 const Navbar = () => {
     const links = <>
-        <li><a>Item 1</a></li>
-        <li><a>Item 3</a></li>
+        <li><a>About Me</a></li>
+        <li><a>Projects</a></li>
+        <li><a>Skills</a></li>
+        <li><a>Contact</a></li>
     </>
     return (
-        <div className="bg-customFront">
+        <div className="bg-customFront sticky top-0 z-50">
             <div className="navbar max-w-screen-xl w-11/12 mx-auto ">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -25,7 +27,7 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content bg-customFront rounded-box z-[1] mt-3 w-52 p-2 shadow">
                             {links}
                         </ul>
                     </div>
@@ -37,7 +39,9 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="bg-primary hover:bg-opacity-90 transition-colors text-white cursor-pointer py-2 px-6 rounded-md font-medium">Resume</button>
+                    <button
+                        onClick={() => window.open('https://docs.google.com/document/d/1VzA6XRJlteyKNty1hKFBYq5D_0hTJJgC8JKzEOuhRMQ/edit?tab=t.0', '_blank')}
+                        className="bg-primary hover:bg-opacity-90 transition-colors text-white cursor-pointer py-2 px-6 rounded-md font-medium">Resume</button>
                 </div>
             </div>
         </div>

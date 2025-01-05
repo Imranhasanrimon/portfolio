@@ -6,8 +6,10 @@ const AboutMe = () => {
     return (
         <div>
             <MyStory></MyStory>
-            <MySkills></MySkills>
-            <MyEducation></MyEducation>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <MySkills></MySkills>
+                <MyEducation></MyEducation>
+            </div>
 
         </div>
     );

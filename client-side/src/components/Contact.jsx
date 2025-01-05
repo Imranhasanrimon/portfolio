@@ -25,9 +25,9 @@ const Contact = () => {
     };
 
     return (
-        <div>
+        <div id='contact'>
             <div className="divider divider-error after:bg-primary before:bg-primary"> <h2 className="text-2xl md:text-3xl lg:text-5xl text-primary text-center font-semibold">Contact</h2></div>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-12 mt-12'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-12 md:mt-12'>
                 <div className='py-7 space-y-3 md:text-lg flex flex-col  justify-center'>
 
                     <h4 className="text-2xl md:text-3xl lg:text-5xl  font-semibold">Get in touch</h4>
