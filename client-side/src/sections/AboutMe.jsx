@@ -4,7 +4,7 @@ import backNight from "../assets/aboutMe/IMG_20240711_214429_752.jpg"
 import frontNight from "../assets/aboutMe/IMG_20240711_214752_148.jpg"
 import fullRoom from "../assets/aboutMe/IMG_20240912_175928.jpg"
 import google from "../assets/aboutMe/msg5488259304-1087.jpg"
-const MyStory = () => {
+const AboutMe = () => {
     const [modlaImage, setModalImage] = useState()
     const openImage = (img) => {
         setModalImage(img)
@@ -100,4 +100,4 @@ const MyStory = () => {
     );
 };
 
-export default MyStory;
+export default AboutMe;

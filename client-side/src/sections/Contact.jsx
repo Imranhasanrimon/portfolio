@@ -35,7 +35,7 @@ const Contact = () => {
                     <p className=''>Feel free to contact me for any project inquiries, collaborations, or just a chat. Let's create something amazing together!</p>
 
                     <p><FaLocationDot className='inline' /> Rajshahi, Bangladesh</p>
-                    <p><IoCall className='inline' /> 01743621957</p>
+                    <p><IoCall className='inline' /> +8801743621957</p>
                     <p><MdMail className='inline' /> imranhasanrimon5@gmail.com</p>
 
                 </div>
@@ -60,7 +60,7 @@ const Contact = () => {
                         <textarea rows={5} type="text" name="message" placeholder="Message" className="bg-customFront rounded-lg focus:outline-none border-gray-600 border p-3" required />
                     </div>
                     <div className="form-control mt-6">
-                        <button className="btn btn-primary">Send</button>
+                        <button className="bg-primary hover:bg-opacity-90 transition-colors text-white cursor-pointer py-2 px-6 rounded-md font-medium">Send</button>
                     </div>
                 </form>
             </div>

@@ -1,10 +1,11 @@
 // import { Outlet, } from "react-router-dom";
 
-import AboutMe from "../components/AboutMe";
-import Banner from "../components/Banner";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
+import Banner from "../sections/Banner";
+import Contact from "../sections/Contact";
+import Footer from "../sections/Footer";
 import Navbar from "../components/Navbar";
+import SkillsAndEdu from "../sections/SkillsAndEdu";
+import AboutMe from "../sections/AboutMe";
 
 
 const MainLayout = () => {
@@ -14,6 +15,7 @@ const MainLayout = () => {
             <div className=" max-w-screen-xl w-11/12 mx-auto">
                 <Banner></Banner>
                 <AboutMe></AboutMe>
+                <SkillsAndEdu></SkillsAndEdu>
                 <Contact></Contact>
                 {/* <Outlet /> */}
             </div>

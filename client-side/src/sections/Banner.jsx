@@ -4,10 +4,12 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { BsFacebook } from "react-icons/bs";
 import bannerImg2 from "../assets/banner.jpg"
 const Banner = () => {
+
     const handleScrollToContact = () => {
         const contactSection = document.getElementById("contact");
         contactSection.scrollIntoView({ behavior: "smooth" });
     };
+
     return (
         <div className="flex flex-col md:flex-row justify-between items-center py-8 md:py-12 gap-4">
             <div className="">
@@ -22,6 +24,7 @@ const Banner = () => {
                     performance,
                     usability, and cross-browser
                     compatibility for a seamless user experience.</p>
+
                 <div className="flex gap-4 text-primary mt-4">
 
                     <button
@@ -41,10 +44,14 @@ const Banner = () => {
                     </button>
 
                 </div>
+
                 <button
                     onClick={handleScrollToContact}
-                    className="bg-primary hover:bg-opacity-90 transition-colors text-white py-2 mt-4 px-6 rounded-md font-medium">Hire Me</button>
+                    className="bg-primary hover:bg-opacity-90 transition-colors text-white py-2 mt-4 px-6 rounded-md font-medium">Hire Me
+                </button>
+
             </div>
+
             <div className="divider md:divider-horizontal ">
                 <div className="w-12 md:w-2 h-2 md:h-12 border border-primary rounded-full"></div>
             </div>
