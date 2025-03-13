@@ -8,4 +8,8 @@ export const router = createBrowserRouter([
         path: "/",
         element: <MainLayout></MainLayout>,
     },
+    {
+        path: "/details/project-1",
+        element: <MainLayout></MainLayout>,
+    },
 ]);
