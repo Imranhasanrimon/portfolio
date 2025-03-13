@@ -10,11 +10,10 @@ const MyProjects = () => {
             .then(data => setProjects(data))
     }, []);
 
-    console.log(projects);
     return (
-        <div>
+        <div className='pb-16'>
 
-            <div className="divider divider-error after:bg-primary before:bg-primary">
+            <div className="divider divider-error after:bg-primary before:bg-primary pt-8 pb-8">
                 <h2 className="text-2xl md:text-3xl lg:text-5xl text-primary text-center font-semibold">MyProjects</h2>
             </div>
 
