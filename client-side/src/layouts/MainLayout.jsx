@@ -19,7 +19,6 @@ const MainLayout = () => {
                 <SkillsAndEdu></SkillsAndEdu>
                 <MyProjects></MyProjects>
                 <Contact></Contact>
-                {/* <Outlet /> */}
             </div>
             <Footer />
         </div>

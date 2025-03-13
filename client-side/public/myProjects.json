@@ -1,7 +1,7 @@
 [
     {
-        "name": "Portfolio Website",
-        "image": "https://example.com/portfolio.png",
+        "name": "LearnHub",
+        "image": "https://i.ibb.co.com/ZpLmkWzV/learnHub.png",
         "details": {
             "technologies": [
                 "Next.js",
@@ -9,8 +9,8 @@
                 "Framer Motion"
             ],
             "description": "A personal portfolio website to showcase projects, skills, and experiences.",
-            "liveLink": "https://yourportfolio.com",
-            "github": "https://github.com/yourusername/portfolio",
+            "liveLink": "https://assignment-12-25769.web.app/",
+            "github": "https://github.com/Programming-Hero-Web-Course4/b10a12-client-side-Imranhasanrimon?tab=readme-ov-file",
             "challenges": [
                 "Implementing dark mode",
                 "Optimizing performance for fast load times"
@@ -22,8 +22,8 @@
         }
     },
     {
-        "name": "E-Commerce Website",
-        "image": "https://example.com/ecommerce.png",
+        "name": "SeiMarathon",
+        "image": "https://i.ibb.co.com/Q4RjqX6/sei-marathon.png",
         "details": {
             "technologies": [
                 "React.js",
@@ -32,7 +32,7 @@
                 "Stripe"
             ],
             "description": "An online store with product filtering, cart functionality, and checkout.",
-            "liveLink": "https://yourecommerce.com",
+            "liveLink": "https://assignment-11-80956.web.app/",
             "github": "https://github.com/yourusername/ecommerce",
             "challenges": [
                 "Managing global state efficiently with Redux",
@@ -45,8 +45,8 @@
         }
     },
     {
-        "name": "Task Management App",
-        "image": "https://example.com/taskapp.png",
+        "name": "CrouwdCube",
+        "image": "https://i.ibb.co.com/vx9hNCFb/corowdcube.png",
         "details": {
             "technologies": [
                 "MERN Stack",
@@ -54,7 +54,7 @@
                 "Tailwind CSS"
             ],
             "description": "A task management app for team collaboration with real-time updates.",
-            "liveLink": "https://yourtaskapp.com",
+            "liveLink": "https://assignment-10-41c93.web.app/",
             "github": "https://github.com/yourusername/taskapp",
             "challenges": [
                 "Implementing real-time updates using WebSockets",
