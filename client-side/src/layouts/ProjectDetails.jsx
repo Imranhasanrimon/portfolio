@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const ProjectDetails = () => {
     const { projectName } = useParams();
@@ -14,8 +14,8 @@ const ProjectDetails = () => {
     const thisProject = projects.find(project => project.name === projectName);
 
     return (
-        <div className="w-11/12 mx-auto">
-            <div className="max-w-3xl mx-auto p-6 bg-customFront rounded-lg">
+        <div className="w-11/12 mx-auto pt-8 md:pt-16">
+            <div className="max-w-3xl mx-auto p-6 bg-customFront rounded-lg ">
                 <img src={thisProject?.image} alt={thisProject?.name} className="w-full h-64 object-cover rounded-md" />
                 <h2 className="text-2xl font-bold mt-4">{thisProject?.name}</h2>
                 <p className=" mt-2">{thisProject?.description}</p>
@@ -60,7 +60,6 @@ const ProjectDetails = () => {
                     <p className=" mt-2">{thisProject?.details?.futurePlans[0]}</p>
                 </div>
             </div>
-
         </div>
     );
 };
