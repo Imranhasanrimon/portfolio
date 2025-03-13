@@ -30,7 +30,7 @@ const MyEducation = () => {
           className=" "
           contentStyle={{ background: '#2f3349', }}
           contentArrowStyle={{ borderRight: '7px solid  #2f3349' }}
-          date="2011 - 2020"
+          date="2018 - 2020"
           iconStyle={{ background: '#ff014f', color: '#fff' }}
           icon={<LuBookOpenText />}
         >

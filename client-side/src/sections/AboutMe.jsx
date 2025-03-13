@@ -41,16 +41,6 @@ const AboutMe = () => {
                     </div>
 
                     <div className="bg-customFront col-span-2 rounded-xl overflow-hidden">
-                        <img onClick={() => openImage(fullRoom)} className="h-56 w-full object-cover" src={fullRoom} alt="" />
-                        <p className="text-center py-2 text-primary">2024</p>
-                    </div>
-
-                    <div className="bg-customFront col-span-2 rounded-xl overflow-hidden">
-                        <img onClick={() => openImage(backNight)} className="h-56 w-full object-cover" src={backNight} alt="" />
-                        <p className="text-center py-2 text-primary">2024</p>
-                    </div>
-
-                    <div className="bg-customFront col-span-2 rounded-xl overflow-hidden">
                         <img onClick={() => openImage(frontNight)} className="h-56 w-full object-cover" src={frontNight} alt="" />
                         <p className="text-center py-2 text-primary">2024</p>
                     </div>
@@ -75,16 +65,6 @@ const AboutMe = () => {
                             mastering React for building dynamic user interfaces and Tailwind CSS for designing
                             elegant, responsive layouts effortlessly.
                         </p>
-                        <p className="mb-4">
-                            My expertise includes building scalable front-end applications, designing visually
-                            stunning interfaces, optimizing performance, and collaborating effectively with teams
-                            and clients. Over the years, I’ve worked on exciting projects like:
-                        </p>
-                        <ul className="list-disc list-inside ml-4 mb-4">
-                            <li>E-commerce platforms with advanced filtering, sorting, and cart features.</li>
-                            <li>Crowdfunding applications with secure authentication and intuitive dashboards.</li>
-                            <li>Responsive websites optimized for both aesthetics and functionality.</li>
-                        </ul>
                         <p>
                             Through continuous learning and practice, I’ve discovered my passion for{" "}
                             <span className="font-semibold">building impactful web systems</span> and helping people

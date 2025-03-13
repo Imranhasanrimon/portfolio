@@ -14,11 +14,13 @@ const Banner = () => {
         <div className="flex flex-col md:flex-row justify-between items-center py-8 md:py-12 gap-4">
             <div className="">
                 <p className="text-gray-300 text-sm md:text-base mb-3">HELLO THERE, WELCOME TO MY SITE</p>
-                <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">I'm <span className="text-primary">Imran Hasan <br />
-                </span> <span className="text-2xl md:text-3xl lg:text-5xl"> A
+
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">I'm <span className="text-primary">Imran Hasan <br />
+                </span> <span className="text-xl md:text-2xl lg:text-3xl"> A
                     Frontend
                     Developer</span></h1>
-                <p className="text-gray-300 text-sm md:text-base mt-3 lg:w-1/2">I design and develop responsive websites,
+
+                <p className="text-gray-300 text-sm md:text-base mt-3 lg:w-2/3">I design and develop responsive websites,
                     ensuring
                     optimal
                     performance,
@@ -33,7 +35,7 @@ const Banner = () => {
                         <VscGithub />
                     </button>
                     <button
-                        onClick={() => window.open('https://www.linkedin.com/in/imran-hasan-537b1a22a/', '_blank')}
+                        onClick={() => window.open('https://www.linkedin.com/in/Imranhasanrimon/', '_blank')}
                         className="bg-customFront hover:bg-primary hover:bg-opacity-10 flex justify-center items-center h-10 w-10 rounded-lg text-2xl">
                         <TiSocialLinkedinCircular />
                     </button>
@@ -58,7 +60,7 @@ const Banner = () => {
             {/* <!-- image  --> */}
             <div className="bg-customFront rounded-2xl p-5  lg:ml-20 xl:ml-60"
             >
-                <img className=" max-w-56 rounded-2xl" src={bannerImg2} alt=""
+                <img className=" max-w-56 rounded-xl" src={bannerImg2} alt=""
                 />
             </div>
         </div>
